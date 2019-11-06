@@ -1,0 +1,116 @@
+/* Interview */
+* {
+	box-sizing: border-box;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.25;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	color:#101131;
+}
+header {
+	padding: 0.25em;
+	margin: 0 auto;
+}
+main {
+	padding: 2em 0.25em;
+	perspective: 100em;
+  perspective-origin: top;
+}
+section {
+	max-width: 40em;
+	margin: 0 auto;
+	padding: 1em 0;
+	transition: all 0.5s ease;
+	filter: blur(3px)
+}
+section:nth-child(1) {
+	transform: rotateY(45deg) rotateX(22deg) scale(0.75) translateX(10em);
+}
+section:nth-child(2) {
+	transform: rotateY(15deg) rotateX(12deg) scale(0.75) translateX(-12em);
+}
+section:nth-child(3) {
+	transform: rotateY(35deg) rotateX(52deg) scale(0.75) translateX(1em);
+}
+section:nth-child(4) {
+	transform: rotateY(15deg) rotateX(22deg) scale(0.75) translateX(10em);
+}
+section:nth-child(5) {
+	transform: rotateY(15deg) rotateX(12deg) scale(0.75) translateX(-12em);
+}
+section:nth-child(6) {
+	transform: rotateY(24deg) rotateX(52deg) scale(0.75) translateX(1em);
+}
+section:nth-child(7) {
+	transform: rotateY(28deg) rotateX(22deg) scale(0.75) translateX(10em);
+}
+section:nth-child(8) {
+	transform: rotateY(13deg) rotateX(12deg) scale(0.75) translateX(-12em);
+}
+section:nth-child(9) {
+	transform: rotateY(19deg) rotateX(22deg) scale(0.75) translateX(10em);
+}
+section:nth-child(10) {
+	transform: rotateY(15deg) rotateX(12deg) scale(0.75) translateX(-12em);
+}
+
+section:hover {
+	transform: rotate(0) scale(1) translate(0);
+	filter:blur(0);
+}
+h1 {
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	line-height: 0.85;
+	font-weight: 400;
+	word-spacing: 100vw;
+}
+h2 {
+	color: #5a4fff;
+	display: inline;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	color: #5a4fff;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+p {
+	margin: 0 0 1em 0;
+	font-size: 1.10em;
+}
+
+article{
+	margin-bottom: 2em;
+    padding-bottom: 5em;
+    border-bottom: 2px dotted;
+}
+.rahul h2 {
+	color: red;
+}
+
+.rahul h3 {
+	color: red;
+}
+
+.charan h2{
+	color: green;
+}
+
+.charan h3{
+	color: green;
+}
+
